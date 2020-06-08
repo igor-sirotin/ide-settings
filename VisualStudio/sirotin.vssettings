@@ -34,6 +34,7 @@
 					</Category>
 					<Category GUID="{75A05685-00A8-4DED-BAE5-E7A50BFA929A}" FontName="JetBrains Mono" FontSize="10" CharSet="1" FontIsDefault="No">
 						<Items>
+							<Item Name="MarkerFormatDefinition/FindHighlight" Foreground="0x00000000" Background="0x00FF0000" BoldFont="No"/>
 							<Item Name="CppControlKeywordSyntacticTokenFormat" Foreground="0x00DFA0D8" Background="0x02000000" BoldFont="No"/>
 							<Item Name="CppLabelSemanticTokenFormat" Foreground="0x0000FFFF" Background="0x02000000" BoldFont="No"/>
 							<Item Name="CppFunctionTemplateSemanticTokenFormat" Foreground="0x00A9C8D9" Background="0x02000000" BoldFont="No"/>
@@ -135,6 +136,9 @@
 					<Shortcut Command="Edit.SubwordPreviousExtend" Scope="Text Editor">Ctrl+Shift+Left Arrow</Shortcut>
 					<Shortcut Command="Edit.SubwordDeletePrevious" Scope="Text Editor">Ctrl+Bkspce</Shortcut>
 					<Shortcut Command="Edit.SubwordDeleteNext" Scope="Text Editor">Ctrl+Del</Shortcut>
+					<Shortcut Command="EditorContextMenus.CodeWindow.ToggleHeaderCodeFile" Scope="Global">F4</Shortcut>
+					<Shortcut Command="Build.BuildSolution" Scope="Global">F7</Shortcut>
+					<Shortcut Command="Build.RebuildSolution" Scope="Global">Ctrl+F7</Shortcut>
 				</UserShortcuts>
 			</KeyboardShortcuts>
 		</Category>
