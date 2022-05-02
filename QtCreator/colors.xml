@@ -19,6 +19,7 @@
   <style name="Number" foreground="#e6b468"/>
   <style name="String" foreground="#d69545"/>
   <style name="Type" foreground="#ff8080"/>
+  <style name="Namespace" foreground="#ff8080"/>
   <style name="Local" foreground="#d4d4d4"/>
   <style name="Parameter" foreground="#999999"/>
   <style name="Global" foreground="#9aa7d6"/>
@@ -43,7 +44,7 @@
   <style name="QmlRootObjectProperty" foreground="#569cd6" italic="true"/>
   <style name="QmlScopeObjectProperty" foreground="#d4d4d4" italic="true"/>
   <style name="QmlExternalObjectProperty" foreground="#c678dd" italic="true"/>
-  <style name="JsScopeVar" foreground="#9cdcfe" italic="true"/>
+  <style name="JsScopeVar" foreground="#b88fff" italic="true"/>
   <style name="JsImportVar" foreground="#4564d6" italic="true"/>
   <style name="JsGlobalVar" foreground="#4564d6" italic="true"/>
   <style name="QmlStateName" foreground="#45c6d6" italic="true"/>
@@ -72,4 +73,5 @@
   <style name="Declaration" bold="true"/>
   <style name="FunctionDefinition"/>
   <style name="OutputArgument" italic="true"/>
+  <style name="StaticMember"/>
 </style-scheme>
